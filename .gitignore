@@ -1,0 +1,26 @@
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Python built-ins
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Database
+*.db
+jobs.db
+jobs.db-journal
+
+# Logs and uploads (if you ever test saving files locally)
+*.log
+uploads/
+test_invoice.pdf
+test_scanned.pdf
+
+# OS and IDE files (optional but good practice)
+.DS_Store
+.vscode/
+.idea/
